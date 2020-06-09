@@ -1,182 +1,202 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.css"/>
-        <link rel="stylesheet" href="fontawesome/css/all.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <script src="js/jquery.js"></script>
-		<title>Festival - Nous rejoindre</title>
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.js"></script>
+    <title>Festival - Nous rejoindre</title>
+</head>
 
-        <header>   
-            <nav class="navbar shadow-bottom navbar-fixed-top navbar-default">
-                <div class="container-fluid">
+<body>
+
+    <header>
+        <nav class="navbar shadow-bottom navbar-fixed-top navbar-default">
+            <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <a href="page-d-accueil.html"><h1>Le Festival des Films de Plein Air</h1></a> 
+                    <a href="page-d-accueil.html">
+                        <h1>Le Festival des Films de Plein Air</h1>
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li><a href="demandez-le-programme.html">Demandez le programme</a></li>
-                        <li><a href="actualités.html">Restez informés</a></li>
+                        <li><a href="actualites.html">Restez informés</a></li>
                         <li class="active"><a href="nous-rejoindre.html">Vous rendre au festival</a></li>
                     </ul>
                 </div>
-                </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
 
-        <div class="global-margin">
-            <div class="container container-width padding-none padding-actuality-top">
-                <!--bannière verticale affiches-->
-                <div class="row">
-                    <div class="col-lg-12 padding-5 padding-actuality-bottom">
-                        <div class="col-md-3 marginbottom display-none">
-                            <img class="img-fluid thumbnail center-thumb" src = "img/affiche-festival.JPG" alt="Affiche Festival"/>
-                            <img class="img-fluid thumbnail center-thumb" src = "img/affiches/big-fish.JPG" alt="Affiche Big Fish"/>
-                            <img class="img-fluid thumbnail center-thumb" src = "img/affiches/mulholland-drive.JPG" alt = "Affiche Mulholland Drive"/>
-                            <img class="img-fluid thumbnail center-thumb" src = "img/affiches/la-haine.JPG" alt = "Affiche La Haine"/>
-                            <img class="img-fluid thumbnail center-thumb" src = "img/affiches/vol-au-dessus-d-un-nid-de-coucou.JPG" alt = "Affiche Vol au dessus d'un nid de coucou"/>
-                            <img class="img-fluid thumbnail center-thumb" src = "img/affiches/into-the-wild.JPG" alt = "Affiche Into the wild"/>
-                            <img class="img-fluid thumbnail center-thumb" src = "img/affiches/melancholia.JPG" alt = "Affiche Melancholia"/>
-                        </div>
+    <div class="global-margin">
+        <div class="container container-width padding-none padding-actuality-top">
+            <!--bannière verticale affiches-->
+            <div class="row">
+                <div class="col-lg-12 padding-5 padding-actuality-bottom">
+                    <div class="col-md-3 marginbottom display-none">
+                        <img class="img-fluid thumbnail center-thumb" src="img/affiche-festival.JPG"
+                            alt="Affiche Festival" />
+                        <img class="img-fluid thumbnail center-thumb" src="img/affiches/big-fish.JPG"
+                            alt="Affiche Big Fish" />
+                        <img class="img-fluid thumbnail center-thumb" src="img/affiches/mulholland-drive.JPG"
+                            alt="Affiche Mulholland Drive" />
+                        <img class="img-fluid thumbnail center-thumb" src="img/affiches/la-haine.JPG"
+                            alt="Affiche La Haine" />
+                        <img class="img-fluid thumbnail center-thumb"
+                            src="img/affiches/vol-au-dessus-d-un-nid-de-coucou.JPG"
+                            alt="Affiche Vol au dessus d'un nid de coucou" />
+                        <img class="img-fluid thumbnail center-thumb" src="img/affiches/into-the-wild.JPG"
+                            alt="Affiche Into the wild" />
+                        <img class="img-fluid thumbnail center-thumb" src="img/affiches/melancholia.JPG"
+                            alt="Affiche Melancholia" />
+                    </div>
 
-                        <div class="col-md-9">
-                            <div class="col-lg-12 padding-5 vcenter padding-section">
-                                <!--coordonnées + map-->
-                                    <fieldset class = "col-md-4 padding-5 height-150 borderContainer">
-                                        <legend>
-                                            <h2 class="padding-5">Nos coordonnées</h2>                    
-                                        </legend>
-                                        <div>
-                                            <address class="padding-10 font-footer">Association Les films de plein air</address>
-                                            <address class="font-footer">35, avenue Charles Fourrier</address>
-                                            <address class="font-footer">75002 Paris</address>
-                                            <address class="font-footer">01.01.01.01.01</address>
-                                        </div>                
-                                    </fieldset>
-                                    <div id="map" class="col-md-8 padding-5">
-                                   </div>
-                            </div>
-                            <!--en voiture-->
-                            <fieldset class="col-md-12 padding-5 padding-actuality-bottom borderContainer">
+                    <div class="col-md-9">
+                        <div class="col-lg-12 padding-5 vcenter padding-section">
+                            <!--coordonnées + map-->
+                            <fieldset class="col-md-4 padding-5 height-150 borderContainer">
                                 <legend>
-                                    <h2 class="padding-5">En voiture</h2>
+                                    <h2 class="padding-5">Nos coordonnées</h2>
                                 </legend>
-                                <div class="col-md-12 padding-5">
-                                    <p class="fieldset-footer">Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta 
-                                    vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero 
+                                <div>
+                                    <address class="padding-10 font-footer">Association Les films de plein air</address>
+                                    <address class="font-footer">35, avenue Charles Fourrier</address>
+                                    <address class="font-footer">75002 Paris</address>
+                                    <address class="font-footer">01.01.01.01.01</address>
+                                </div>
+                            </fieldset>
+                            <div id="map" class="col-md-8 padding-5">
+                            </div>
+                        </div>
+                        <!--en voiture-->
+                        <fieldset class="col-md-12 padding-5 padding-actuality-bottom borderContainer">
+                            <legend>
+                                <h2 class="padding-5">En voiture</h2>
+                            </legend>
+                            <div class="col-md-12 padding-5">
+                                <p class="fieldset-footer">Illud tamen clausos vehementer angebat quod captis navigiis,
+                                    quae frumenta
+                                    vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero
                                     solitarum rerum cibos iam inediae propinquantis aerumnas exitialis
-                                    horrebant. Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta 
-                                    vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero 
+                                    horrebant. Illud tamen clausos vehementer angebat quod captis navigiis, quae
+                                    frumenta
+                                    vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero
                                     solitarum rerum cibos iam inediae propinquantis aerumnas exitialis
                                     horrebant.
-                                    </p>
+                                </p>
+                            </div>
+                            <div class="col-md-12 padding-5">
+                                <div class="col-md-6 padding-5">
+                                    <h2 class="h2-small fieldset-footer float-right">Les parkings à proximité</h2>
                                 </div>
-                                <div class="col-md-12 padding-5">
-                                     <div class="col-md-6 padding-5">
-                                    <h2 class="h2-small fieldset-footer float-right">Les parkings à proximité</h2> 
-                                    </div>
-                                    <div class="col-md-6 padding-5">
-                                        <div class="borderContainer border-unset padding-section">
-                                            <p><span class="focus">Parking 1</span> : Illud tamen clausos vehementer angebat quod captis navigiis</p>
-                                            <p><span class="focus">Parking 2</span> : Illud tamen clausos vehementer angebat quod captis navigiis</p>
-                                            <p><span class="focus">Parking 3</span> : Illud tamen clausos vehementer angebat quod captis navigiis</p>
-                                        </div>  
-                                    </div>   
-                                </div>   
-                            </fieldset>
-                            
-                            <fieldset class="col-md-12 padding-5 padding-actuality-bottom margin-section-3 marginbottom borderContainer">
-                                <legend>
-                                    <h2 class="padding-5">En transport en commun</h2>
-                                </legend>
-                                <!--en bus-->
-                                <div class="col-md-12 padding-5">
-                                    <div class="col-md-6 padding-5">
-                                   <h2 class="h2-small fieldset-footer float-right">En bus</h2> 
-                                    </div>
-                                    <div class="col-md-6 padding-5">
-                                        <div class="padding-section border-unset borderContainer">
-                                            <p>Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta 
-                                                vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero 
-                                                solitarum rerum cibos iam inediae propinquantis aerumnas exitialis
-                                                horrebant. Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta </p>
-                                        </div>                
+                                <div class="col-md-6 padding-5">
+                                    <div class="borderContainer border-unset padding-section">
+                                        <p><span class="focus">Parking 1</span> : Illud tamen clausos vehementer angebat
+                                            quod captis navigiis</p>
+                                        <p><span class="focus">Parking 2</span> : Illud tamen clausos vehementer angebat
+                                            quod captis navigiis</p>
+                                        <p><span class="focus">Parking 3</span> : Illud tamen clausos vehementer angebat
+                                            quod captis navigiis</p>
                                     </div>
                                 </div>
-                                <!--en métro-->
-                                <div class="col-md-12 padding-5 margin-section">
-                                    <div class="col-md-6 padding-5 width-20">
-                                        <h2 class="h2-small fieldset-footer float-left">En métro</h2> 
-                                    </div>
-                                    <div class="col-md-6 padding-5 float-left">
-                                        <div class="borderContainer border-unset padding-section">
-                                            <p>Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta 
-                                                vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero 
-                                                solitarum rerum cibos iam inediae propinquantis aerumnas exitialis
-                                                horrebant. Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta </p>
-                                        </div>                
+                            </div>
+                        </fieldset>
+
+                        <fieldset
+                            class="col-md-12 padding-5 padding-actuality-bottom margin-section-3 marginbottom borderContainer">
+                            <legend>
+                                <h2 class="padding-5">En transport en commun</h2>
+                            </legend>
+                            <!--en bus-->
+                            <div class="col-md-12 padding-5">
+                                <div class="col-md-6 padding-5">
+                                    <h2 class="h2-small fieldset-footer float-right">En bus</h2>
+                                </div>
+                                <div class="col-md-6 padding-5">
+                                    <div class="padding-section border-unset borderContainer">
+                                        <p>Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta
+                                            vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero
+                                            solitarum rerum cibos iam inediae propinquantis aerumnas exitialis
+                                            horrebant. Illud tamen clausos vehementer angebat quod captis navigiis, quae
+                                            frumenta </p>
                                     </div>
                                 </div>
-                            </fieldset>
+                            </div>
+                            <!--en métro-->
+                            <div class="col-md-12 padding-5 margin-section">
+                                <div class="col-md-6 padding-5 width-20">
+                                    <h2 class="h2-small fieldset-footer float-left">En métro</h2>
+                                </div>
+                                <div class="col-md-6 padding-5 float-left">
+                                    <div class="borderContainer border-unset padding-section">
+                                        <p>Illud tamen clausos vehementer angebat quod captis navigiis, quae frumenta
+                                            vehebant per flumen, Isauri quidem alimentorum copiis adfluebant, ipsi vero
+                                            solitarum rerum cibos iam inediae propinquantis aerumnas exitialis
+                                            horrebant. Illud tamen clausos vehementer angebat quod captis navigiis, quae
+                                            frumenta </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="navbar navbar-default marginbottom shadow-top container-fluid">
+            <div class="row vcenter">
+                <fieldset class="col-lg-3 col-lg-offset-4 borderContainer margin-section fieldset-footer">
+                    <legend class="legend-footer">
+                        <h3>Nos coordonnées</h3>
+                    </legend>
+                    <div>
+                        <address class="font-footer">Association Les films de plein air</address>
+                        <address class="font-footer">35, avenue Charles Fourrier</address>
+                        <address class="font-footer">75002 Paris</address>
+                        <address class="font-footer">01.01.01.01.01</address>
+                    </div>
+                </fieldset>
+                <div class="col-lg-3 col-lg-offset-1 justify-flex-end margin-section ">
+                    <div class="float-right">
+                        <div class="btn-group btn-group-md">
+                            <span class="font-focus">Partagez notre festival</span>
+                            <a class="btn btn-default" href="#"><i class="fab fa-2x fa-twitter-square"></i></a>
+                            <a class="btn btn-default" href="#"><i class="fab fa-2x fa-facebook-square"></i></a>
+                            <a class="btn btn-default" href="#"><i class="fab fa-2x fa-instagram-square"></i></a>
+                            <a class="btn btn-default" href="#"><i class="fab fa-2x fa-google-plus-square"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </footer>
 
-        <footer>
-            <div class="navbar navbar-default marginbottom shadow-top container-fluid">
-                <div class="row vcenter">
-                    <fieldset class = "col-lg-3 col-lg-offset-4 borderContainer margin-section fieldset-footer">
-                        <legend class="legend-footer">
-                            <h3>Nos coordonnées</h3>                    
-                        </legend>
-                        <div>
-                            <address class="font-footer">Association Les films de plein air</address>
-                            <address class="font-footer">35, avenue Charles Fourrier</address>
-                            <address class="font-footer">75002 Paris</address>
-                            <address class="font-footer">01.01.01.01.01</address>
-                        </div>                
-                    </fieldset>
-                    <div class="col-lg-3 col-lg-offset-1 justify-flex-end margin-section ">                    
-                        <div class="float-right">
-                            <div class="btn-group btn-group-md">
-                                <span class="font-focus">Partagez notre festival</span>                        
-                                <a class="btn btn-default" href="#"><i class="fab fa-2x fa-twitter-square"></i></a>
-                                <a class="btn btn-default" href="#"><i class="fab fa-2x fa-facebook-square"></i></a>
-                                <a class="btn btn-default" href="#"><i class="fab fa-2x fa-instagram-square"></i></a>
-                                <a class="btn btn-default" href="#"><i class="fab fa-2x fa-google-plus-square"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    <script src="js/bootstrap.js"></script>
 
-        <script src = "js/bootstrap.js"></script>
+    <script>
+        // intitalisation google map
+        function initMap() {
+            var monceau = { lat: 48.879471, lng: 2.310864 };
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 15, center: monceau });
+            var marker = new google.maps.Marker({ position: monceau, map: map });
+        }
+    </script>
 
-        <script>
-            // intitalisation google map
-            function initMap() {
-              var monceau = {lat: 48.879471, lng: 2.310864};
-              var map = new google.maps.Map(
-                  document.getElementById('map'), {zoom: 15, center: monceau});
-              var marker = new google.maps.Marker({position: monceau, map: map});
-            }
-        </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5LJPXKOhbHG5t2yV-iqRrR_RGzvor7OU&callback=initMap"></script>
 
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5LJPXKOhbHG5t2yV-iqRrR_RGzvor7OU&callback=initMap"></script>
-       
-    </body>
+</body>
 
 </html>

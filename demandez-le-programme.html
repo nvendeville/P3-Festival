@@ -1,775 +1,902 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.css"/>
-        <link rel="stylesheet" href="fontawesome/css/all.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="3DGallery/css/style.css" />
-        <script src="js/jquery.js"></script>    
-		<title>Festival - Programmation</title>
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="3DGallery/css/style.css" />
+    <script src="js/jquery.js"></script>
+    <title>Festival - Programmation</title>
+</head>
 
-        <header>   
-            <nav class="navbar shadow-bottom navbar-fixed-top navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>                        
+<body>
+
+    <header>
+        <nav class="navbar shadow-bottom navbar-fixed-top navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="page-d-accueil.html">
+                        <h1>Le Festival des Films de Plein Air</h1>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="demandez-le-programme.html">Demandez le programme</a></li>
+                        <li><a href="actualites.html">Restez informés</a></li>
+                        <li><a href="nous-rejoindre.html">Vous rendre au festival</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="global-margin">
+        <!--carousel-->
+        <div class="container-fluid padding-gallery">
+            <div class="row">
+                <section id="dg-container" class="dg-container">
+                    <div class="dg-wrapper">
+                        <a class="cursor-context-menu" href="#">
+                            <img src="img/affiches/big-fish.jpg" alt="Affiche Big Fish">
+                            <div>
+                                <div class="bottom-caption-1">
+                                    <h2>Tim Burton - 2003</h2>
+                                </div>
+                                <div class="bottom-caption-2">
+                                    <h3>Projections prévues</h3>
+                                </div>
+                                <div class="bottom-caption-3">
+                                    <ul>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                5 août à 18h
+                                            </span>
+                                        </li>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                7 août à 22h
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="cursor-context-menu" href="#">
+                            <img src="img/affiches/into-the-wild.jpg" alt="Affiche Into the Wild">
+                            <div>
+                                <div class="bottom-caption-1">
+                                    <h2>Sean Penn - 2007</h2>
+                                </div>
+                                <div class="bottom-caption-2">
+                                    <h3>Projections prévues</h3>
+                                </div>
+                                <div class="bottom-caption-3">
+                                    <ul>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                5 août à 20h
+                                            </span>
+                                        </li>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                8 août à 22h
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="cursor-context-menu" href="#">
+                            <img src="img/affiches/la-haine.jpg" alt="Affiche La Haine">
+                            <div>
+                                <div class="bottom-caption-1">
+                                    <h2>Matthieu Kassovitz - 1995</h2>
+                                </div>
+                                <div class="bottom-caption-2">
+                                    <h3>Projections prévues</h3>
+                                </div>
+                                <div class="bottom-caption-3">
+                                    <ul>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                5 août à 22h
+                                            </span>
+                                        </li>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                7 août à 20h
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="cursor-context-menu" href="#">
+                            <img src="img/affiches/melancholia.jpg" alt="Affiche Melancholia">
+                            <div>
+                                <div class="bottom-caption-1">
+                                    <h2>Lars von Trier - 2011</h2>
+                                </div>
+                                <div class="bottom-caption-2">
+                                    <h3>Projections prévues</h3>
+                                </div>
+                                <div class="bottom-caption-3">
+                                    <ul>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                6 août à 18h
+                                            </span>
+                                        </li>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                8 août à 20h
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="cursor-context-menu" href="#">
+                            <img src="img/affiches/mulholland-drive.jpg" alt="Affiche Mulholland Drive">
+                            <div>
+                                <div class="bottom-caption-1">
+                                    <h2>David Lynch - 2001</h2>
+                                </div>
+                                <div class="bottom-caption-2">
+                                    <h3>Projections prévues</h3>
+                                </div>
+                                <div class="bottom-caption-3">
+                                    <ul>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                6 août à 20h
+                                            </span>
+                                        </li>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                7 août à 18h
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="cursor-context-menu" href="#">
+                            <img src="img/affiches/vol-au-dessus-d-un-nid-de-coucou.jpg"
+                                alt="Affiche Vol au dessus d'un nid de coucou">
+                            <div>
+                                <div class="bottom-caption-1">
+                                    <h2>Milos Forman - 1975</h2>
+                                </div>
+                                <div class="bottom-caption-2">
+                                    <h3>Projections prévues</h3>
+                                </div>
+                                <div class="bottom-caption-3">
+                                    <ul>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                6 août à 22h
+                                            </span>
+                                        </li>
+                                        <li class="detail-projection">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <span class="padding-li">
+                                                8 août à 18h
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!--alignement lien journées-->
+        <div class="container">
+            <ul class="nav nav-tabs vcenter-programmation" role="tablist">
+                <li class="btn-programmation active">
+                    <a href="#programmation-5-aout" role="tab" data-toggle="tab">5 août</a>
+                </li>
+                <li class="btn-programmation">
+                    <a href="#programmation-6-aout" role="tab" data-toggle="tab">6 août</a>
+                </li>
+                <li class="btn-programmation">
+                    <a href="#programmation-7-aout" role="tab" data-toggle="tab">7 août</a>
+                </li>
+                <li class="btn-programmation">
+                    <a href="#programmation-8-aout" role="tab" data-toggle="tab">8 août</a>
+                </li>
+            </ul>
+        </div>
+        <!--bouton Je réserve ma place-->
+        <div class="container-fluid paddingContainer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="vcenter-programmation">
+                        <button class="btn btn-reservation btn-default btn-lg" data-toggle="modal"
+                            data-target="#fenetre-reservation">Je réserve ma place !
                         </button>
-                        <a href="page-d-accueil.html"><h1>Le Festival des Films de Plein Air</h1></a> 
-                    </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="demandez-le-programme.html">Demandez le programme</a></li>
-                            <li><a href="actualités.html">Restez informés</a></li>
-                            <li><a href="nous-rejoindre.html">Vous rendre au festival</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <div class="global-margin">
-            <!--carousel-->
-            <div class = "container-fluid padding-gallery">        
-                <div class="row">
-                    <section id="dg-container" class="dg-container">
-                        <div class="dg-wrapper">
-                            <a class="cursor-context-menu" href="#">
-                                <img src="img/affiches/big-fish.jpg" alt="Affiche Big Fish">
-                                <div>
-                                    <div class="bottom-caption-1"><h2>Tim Burton - 2003</h2></div>
-                                    <div class="bottom-caption-2"><h3>Projections prévues</h3></div>
-                                    <div class="bottom-caption-3">
-                                        <ul>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    5 août à 18h
-                                                </span>
-                                            </li>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    7 août à 22h
-                                                </span>    
-                                            </li>
-                                        </ul>    
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="cursor-context-menu" href="#">
-                                <img src="img/affiches/into-the-wild.jpg" alt="Affiche Into the Wild">
-                                <div>
-                                    <div class="bottom-caption-1"><h2>Sean Penn - 2007</h2></div>
-                                    <div class="bottom-caption-2"><h3>Projections prévues</h3></div>
-                                    <div class="bottom-caption-3">
-                                        <ul>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    5 août à 20h
-                                                </span>
-                                            </li>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    8 août à 22h
-                                                </span>    
-                                            </li>
-                                        </ul>    
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="cursor-context-menu" href="#">
-                                <img src="img/affiches/la-haine.jpg" alt="Affiche La Haine">
-                                <div>
-                                    <div class="bottom-caption-1"><h2>Matthieu Kassovitz - 1995</h2></div>
-                                    <div class="bottom-caption-2"><h3>Projections prévues</h3></div>
-                                    <div class="bottom-caption-3">
-                                        <ul>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    5 août à 22h
-                                                </span>
-                                            </li>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    7 août à 20h
-                                                </span>    
-                                            </li>
-                                        </ul>    
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="cursor-context-menu" href="#">
-                                <img src="img/affiches/melancholia.jpg" alt="Affiche Melancholia">
-                                <div>
-                                    <div class="bottom-caption-1"><h2>Lars von Trier - 2011</h2></div>
-                                    <div class="bottom-caption-2"><h3>Projections prévues</h3></div>
-                                    <div class="bottom-caption-3">
-                                        <ul>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    6 août à 18h
-                                                </span>
-                                            </li>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    8 août à 20h
-                                                </span>    
-                                            </li>
-                                        </ul>    
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="cursor-context-menu" href="#">
-                                <img src="img/affiches/mulholland-drive.jpg" alt="Affiche Mulholland Drive">
-                                <div>
-                                    <div class="bottom-caption-1"><h2>David Lynch - 2001</h2></div>
-                                    <div class="bottom-caption-2"><h3>Projections prévues</h3></div>
-                                    <div class="bottom-caption-3">
-                                        <ul>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    6 août à 20h
-                                                </span>
-                                            </li>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    7 août à 18h
-                                                </span>    
-                                            </li>
-                                        </ul>    
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="cursor-context-menu" href="#">
-                                <img src="img/affiches/vol-au-dessus-d-un-nid-de-coucou.jpg" alt="Affiche Vol au dessus d'un nid de coucou">
-                                <div>
-                                    <div class="bottom-caption-1"><h2>Milos Forman - 1975</h2></div>
-                                    <div class="bottom-caption-2"><h3>Projections prévues</h3></div>
-                                    <div class="bottom-caption-3">
-                                        <ul>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    6 août à 22h
-                                                </span>
-                                            </li>
-                                            <li class="detail-projection">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                <span class="padding-li">
-                                                    8 août à 18h
-                                                </span>    
-                                            </li>
-                                        </ul>    
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </section>
-                </div>
-            </div>
-            <!--alignement lien journées-->
-            <div class="container">
-                <ul class="nav nav-tabs vcenter-programmation" role="tablist">
-                    <li class="btn-programmation active">
-                        <a href="#programmation-5-aout" role="tab" data-toggle="tab">5 août</a>
-                    </li>
-                    <li class="btn-programmation">
-                        <a href="#programmation-6-aout" role="tab" data-toggle="tab">6 août</a>
-                    </li>
-                    <li class="btn-programmation">
-                        <a href="#programmation-7-aout" role="tab" data-toggle="tab">7 août</a>
-                    </li>
-                    <li class="btn-programmation">
-                        <a href="#programmation-8-aout" role="tab" data-toggle="tab">8 août</a>
-                    </li>
-                </ul>
-            </div>
-            <!--bouton Je réserve ma place-->
-            <div class="container-fluid paddingContainer">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="vcenter-programmation">
-                            <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                            </button>
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class="tab-content">
-                <!--tab 5août-->
-                <div class="tab-pane fade active in" id="programmation-5-aout">
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 aside-flex center-section">
-                                <img src = "img/affiches/big-fish.JPG" alt = "Affiche Big Fish"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 18h</h2>
-                                </div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>3 mars 2004</p>    
+        </div>
+        <div class="tab-content">
+            <!--tab 5août-->
+            <div class="tab-pane fade active in" id="programmation-5-aout">
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 aside-flex center-section">
+                            <img src="img/affiches/big-fish.JPG" alt="Affiche Big Fish" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 18h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>3 mars 2004</p>
 
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Tim Burton</p>
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Tim Burton</p>
 
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Ewan McGregor, Albert Finney</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>L'histoire à la fois drôle et poignante d'Edward Bloom, 
-                                        un père débordant d'imagination, et de son fils William. 
-                                        Ce dernier retourne au domicile familial après l'avoir 
-                                        quitté longtemps auparavant, pour être au chevet de son 
-                                        père, atteint d'un cancer. Il souhaite mieux le connaître 
-                                        et découvrir ses secrets avant qu'il ne soit trop tard. 
-                                        L'aventure débutera lorsque William tentera de discerner 
-                                        le vrai du faux dans les propos de son père mourant.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Ewan McGregor, Albert Finney</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>L'histoire à la fois drôle et poignante d'Edward Bloom,
+                                    un père débordant d'imagination, et de son fils William.
+                                    Ce dernier retourne au domicile familial après l'avoir
+                                    quitté longtemps auparavant, pour être au chevet de son
+                                    père, atteint d'un cancer. Il souhaite mieux le connaître
+                                    et découvrir ses secrets avant qu'il ne soit trop tard.
+                                    L'aventure débutera lorsque William tentera de discerner
+                                    le vrai du faux dans les propos de son père mourant.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
-                            </div>     
+                            </div>
                         </div>
-                    </section> 
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 aside-flex center-section">
-                                <img src = "img/affiches/into-the-wild.JPG" alt = "Affiche Into the Wild"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 20h</h2>
-                                </div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>9 janvier 2008</p>    
+                    </div>
+                </section>
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 aside-flex center-section">
+                            <img src="img/affiches/into-the-wild.JPG" alt="Affiche Into the Wild" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 20h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>9 janvier 2008</p>
 
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Sean Penn</p>
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Sean Penn</p>
 
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Emile Hirsch, Kristen Stewart</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>Tout juste diplômé, Christopher McCandless, 22 ans, est promis à un brillant
-                                        avenir. Pourtant, tournant le dos à l'existence confortable et sans surprise
-                                        qui l'attend, le jeune homme décide de prendre la route en laissant tout
-                                        derrière lui. Des champs de blé du Dakota aux flots tumultueux du Colorado, 
-                                        en passant par les communautés hippies de Californie, Christopher va 
-                                        rencontrer des personnages hauts en couleur. Chacun, à sa manière, va 
-                                        façonner sa vision de la vie et des autres.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section>
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 aside-flex center-section">
-                                <img src = "img/affiches/la-haine.JPG" alt = "Affiche La Haine"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 22h</h2></div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>31 mai 1995</p>    
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Emile Hirsch, Kristen Stewart</p>
 
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Matthieu Kassovitz</p>
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>Tout juste diplômé, Christopher McCandless, 22 ans, est promis à un brillant
+                                    avenir. Pourtant, tournant le dos à l'existence confortable et sans surprise
+                                    qui l'attend, le jeune homme décide de prendre la route en laissant tout
+                                    derrière lui. Des champs de blé du Dakota aux flots tumultueux du Colorado,
+                                    en passant par les communautés hippies de Californie, Christopher va
+                                    rencontrer des personnages hauts en couleur. Chacun, à sa manière, va
+                                    façonner sa vision de la vie et des autres.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 aside-flex center-section">
+                            <img src="img/affiches/la-haine.JPG" alt="Affiche La Haine" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 22h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>31 mai 1995</p>
 
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Vincent Cassel, Saïd Taghmaoui, Hubert Koundé</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>Après une bavure policière, une nuit d'émeutes éclate entre les jeunes 
-                                        de la cité des Muguets et la police. Parmi ces jeunes aveuglés par la 
-                                        haine, 3 amis vont vivre la journée la plus importante de leur vie.
-                                        Aujourd'hui, ils ne sont plus que 3... Ils sont 4 avec le Smith & Wesson
-                                        44 chromé qu'un des policiers a égaré pendant les émeutes.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section>
-                </div> 
-                <!--tab 6 août-->
-                <div class="tab-pane fade" id="programmation-6-aout">
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 aside-flex center-section">
-                                <img src = "img/affiches/melancholia.JPG" alt = "Affiche Melancholia"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="vcenter padding-section center-section">Séance de 18h</h2>
-                                </div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>10 août 2011</p>    
-        
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Lars von Trier</p>
-        
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Kirsten Dunst, Charlotte Gainsbourg, Kieffer Sutherland</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>Justine se marie. Elle a voulu une grande cérémonie et un wedding planner 
-                                        de haut vol. Mais elle et Michael arrivent en retard à la réception, au 
-                                        grand dam de Claire, la soeur de la mariée, qui a tout organisé. Pendant 
-                                        le dîner, le père des deux filles boit trop tandis que leur mère clame 
-                                        haut et fort son mépris du mariage. Le regard de Justine se trouble. La 
-                                        jeune femme cherche de plus en plus à échapper aux festivités, jusqu'à 
-                                        tout faire capoter.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section> 
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 aside-flex center-section">
-                                <img src = "img/affiches/mulholland-drive.JPG" alt = "Affiche Mulholland Drive"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 20h</h2>
-                                </div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>6 janvier 2001</p>    
-        
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>David Lynch</p>
-        
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Naomi Watts, Laura Harring, Justin Theroux</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>TA Hollywood, durant la nuit, Rita, une jeune femme, devient amnésique 
-                                        suite à un accident de voiture sur la route de Mulholland Drive. Elle 
-                                        fait la rencontre de Betty Elms, une actrice en devenir qui vient 
-                                        juste de débarquer à Los Angeles. Aidée par celle-ci, Rita tente de 
-                                        retrouver la mémoire ainsi que son identité.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section>
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 aside-flex center-section">
-                                <img src = "img/affiches/vol-au-dessus-d-un-nid-de-coucou.JPG" alt = "Affiche Vol au dessus d'un nid de coucou"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 22h</h2>
-                                </div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>1 mars 1976</p>    
-        
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Milos Forman</p>
-        
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Jack Nicholson, Louise Fletcher, Will Sampson</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>Pour échapper à la prison, le détenu du droit commun Randall P. McMurphy 
-                                        se fait interner en simulant la folie. Dès son arrivée à l'hôpital 
-                                        psychiatrique, il assiste aux traitements thérapeutiques dispensés par 
-                                        miss Ratched, l'autoritaire et tyrannique infirmière en chef dont il 
-                                        cherche à bouleverser les méthodes.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section>
-                </div>
-                <!--tab 7 août-->
-                <div class="tab-pane fade" id="programmation-7-aout">
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 center-section aside-flex">
-                                <img src = "img/affiches/mulholland-drive.JPG" alt = "Affiche Mulholland Drive"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 18h</h2></div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>6 janvier 2001</p>    
-        
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>David Lynch</p>
-        
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Naomi Watts, Laura Harring, Justin Theroux</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>TA Hollywood, durant la nuit, Rita, une jeune femme, devient amnésique 
-                                        suite à un accident de voiture sur la route de Mulholland Drive. Elle 
-                                        fait la rencontre de Betty Elms, une actrice en devenir qui vient 
-                                        juste de débarquer à Los Angeles. Aidée par celle-ci, Rita tente de 
-                                        retrouver la mémoire ainsi que son identité.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section>
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 center-section aside-flex">
-                                <img src = "img/affiches/la-haine.JPG" alt = "Affiche La Haine"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 20h</h2></div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>31 mai 1995</p>    
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Matthieu Kassovitz</p>
 
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Matthieu Kassovitz</p>
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Vincent Cassel, Saïd Taghmaoui, Hubert Koundé</p>
 
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Vincent Cassel, Saïd Taghmaoui, Hubert Koundé</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>Après une bavure policière, une nuit d'émeutes éclate entre les jeunes 
-                                        de la cité des Muguets et la police. Parmi ces jeunes aveuglés par la 
-                                        haine, 3 amis vont vivre la journée la plus importante de leur vie.
-                                        Aujourd'hui, ils ne sont plus que 3... Ils sont 4 avec le Smith & Wesson
-                                        44 chromé qu'un des policiers a égaré pendant les émeutes.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>Après une bavure policière, une nuit d'émeutes éclate entre les jeunes
+                                    de la cité des Muguets et la police. Parmi ces jeunes aveuglés par la
+                                    haine, 3 amis vont vivre la journée la plus importante de leur vie.
+                                    Aujourd'hui, ils ne sont plus que 3... Ils sont 4 avec le Smith & Wesson
+                                    44 chromé qu'un des policiers a égaré pendant les émeutes.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
-                            </div>     
+                            </div>
                         </div>
-                    </section>
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 center-section aside-flex">
-                                <img src = "img/affiches/big-fish.JPG" alt = "Affiche Big Fish"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 22h</h2></div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>3 mars 2004</p>    
-
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Tim Burton</p>
-
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Ewan McGregor, Albert Finney</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>L'histoire à la fois drôle et poignante d'Edward Bloom, 
-                                        un père débordant d'imagination, et de son fils William. 
-                                        Ce dernier retourne au domicile familial après l'avoir 
-                                        quitté longtemps auparavant, pour être au chevet de son 
-                                        père, atteint d'un cancer. Il souhaite mieux le connaître 
-                                        et découvrir ses secrets avant qu'il ne soit trop tard. 
-                                        L'aventure débutera lorsque William tentera de discerner 
-                                        le vrai du faux dans les propos de son père mourant.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section>
-                </div>
-                <!--tab 8 août-->
-                <div class="tab-pane fade" id="programmation-8-aout">
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 center-section aside-flex">
-                                <img src = "img/affiches/vol-au-dessus-d-un-nid-de-coucou.JPG" alt = "Affiche Vol au dessus d'un nid de coucou"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 18h</h2></div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>1 mars 1976</p>    
-        
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Milos Forman</p>
-        
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Jack Nicholson, Louise Fletcher, Will Sampson</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>Pour échapper à la prison, le détenu du droit commun Randall P. McMurphy 
-                                        se fait interner en simulant la folie. Dès son arrivée à l'hôpital 
-                                        psychiatrique, il assiste aux traitements thérapeutiques dispensés par 
-                                        miss Ratched, l'autoritaire et tyrannique infirmière en chef dont il 
-                                        cherche à bouleverser les méthodes.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section>
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 center-section aside-flex">
-                                <img src = "img/affiches/melancholia.JPG" alt = "Affiche Melancholia"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 20h</h2></div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>10 août 2011</p>    
-        
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Lars von Trier</p>
-        
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Kirsten Dunst, Charlotte Gainsbourg, Kieffer Sutherland</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>Justine se marie. Elle a voulu une grande cérémonie et un wedding planner 
-                                        de haut vol. Mais elle et Michael arrivent en retard à la réception, au 
-                                        grand dam de Claire, la soeur de la mariée, qui a tout organisé. Pendant 
-                                        le dîner, le père des deux filles boit trop tandis que leur mère clame 
-                                        haut et fort son mépris du mariage. Le regard de Justine se trouble. La 
-                                        jeune femme cherche de plus en plus à échapper aux festivités, jusqu'à 
-                                        tout faire capoter.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section>
-                    <section class = "container paddingContainer">        
-                        <div class = "row section-flex"> 
-                            <aside class = "col-sm-6 center-section aside-flex">
-                                <img src = "img/affiches/into-the-wild.JPG" alt = "Affiche Into the Wild"/>
-                            </aside>
-                            <div class = "col-sm-6 padding-none-2">
-                                <div><h2 class="padding-section center-section">Séance de 20h</h2></div>
-                                <div>
-                                    <h3 class="item-seance">Date de sortie :</h3>                             
-                                    <p>9 janvier 2008</p>    
-
-                                    <a href="realisateurs.html"><h3 class="item-seance lien-item-seance">Réalisateur :</h3></a>                             
-                                    <p>Sean Penn</p>
-
-                                    <a href="acteurs.html"><h3 class="item-seance lien-item-seance">Acteurs principaux :</h3></a>                             
-                                    <p>Emile Hirsch, Kristen Stewart</p>        
-                                    
-                                    <h3 class="item-seance">Synopsis :</h3>
-                                    <p>Tout juste diplômé, Christopher McCandless, 22 ans, est promis à un brillant
-                                        avenir. Pourtant, tournant le dos à l'existence confortable et sans surprise
-                                        qui l'attend, le jeune homme décide de prendre la route en laissant tout
-                                        derrière lui. Des champs de blé du Dakota aux flots tumultueux du Colorado, 
-                                        en passant par les communautés hippies de Californie, Christopher va 
-                                        rencontrer des personnages hauts en couleur. Chacun, à sa manière, va 
-                                        façonner sa vision de la vie et des autres.
-                                    </p>
-                                    <div class="container-fluid paddingContainer">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="vcenter-programmation">
-                                                    <button type="button" class="btn btn-reservation btn-default btn-lg" data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma place !
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>     
-                        </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
             </div>
-            <!--formulaire de réservation-->
-            <div class="modal fade" id="fenetre-reservation" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <fieldset class="modal-body global-margin margin-section padding-section paddingContainer borderContainer">
-                            <legend>
-                                <h2>Réservez votre journée</h2>
-                            </legend>
-                            <form>
+            <!--tab 6 août-->
+            <div class="tab-pane fade" id="programmation-6-aout">
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 aside-flex center-section">
+                            <img src="img/affiches/melancholia.JPG" alt="Affiche Melancholia" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="vcenter padding-section center-section">Séance de 18h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>10 août 2011</p>
+
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Lars von Trier</p>
+
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Kirsten Dunst, Charlotte Gainsbourg, Kieffer Sutherland</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>Justine se marie. Elle a voulu une grande cérémonie et un wedding planner
+                                    de haut vol. Mais elle et Michael arrivent en retard à la réception, au
+                                    grand dam de Claire, la soeur de la mariée, qui a tout organisé. Pendant
+                                    le dîner, le père des deux filles boit trop tandis que leur mère clame
+                                    haut et fort son mépris du mariage. Le regard de Justine se trouble. La
+                                    jeune femme cherche de plus en plus à échapper aux festivités, jusqu'à
+                                    tout faire capoter.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 aside-flex center-section">
+                            <img src="img/affiches/mulholland-drive.JPG" alt="Affiche Mulholland Drive" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 20h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>6 janvier 2001</p>
+
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>David Lynch</p>
+
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Naomi Watts, Laura Harring, Justin Theroux</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>TA Hollywood, durant la nuit, Rita, une jeune femme, devient amnésique
+                                    suite à un accident de voiture sur la route de Mulholland Drive. Elle
+                                    fait la rencontre de Betty Elms, une actrice en devenir qui vient
+                                    juste de débarquer à Los Angeles. Aidée par celle-ci, Rita tente de
+                                    retrouver la mémoire ainsi que son identité.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 aside-flex center-section">
+                            <img src="img/affiches/vol-au-dessus-d-un-nid-de-coucou.JPG"
+                                alt="Affiche Vol au dessus d'un nid de coucou" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 22h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>1 mars 1976</p>
+
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Milos Forman</p>
+
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Jack Nicholson, Louise Fletcher, Will Sampson</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>Pour échapper à la prison, le détenu du droit commun Randall P. McMurphy
+                                    se fait interner en simulant la folie. Dès son arrivée à l'hôpital
+                                    psychiatrique, il assiste aux traitements thérapeutiques dispensés par
+                                    miss Ratched, l'autoritaire et tyrannique infirmière en chef dont il
+                                    cherche à bouleverser les méthodes.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--tab 7 août-->
+            <div class="tab-pane fade" id="programmation-7-aout">
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 center-section aside-flex">
+                            <img src="img/affiches/mulholland-drive.JPG" alt="Affiche Mulholland Drive" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 18h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>6 janvier 2001</p>
+
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>David Lynch</p>
+
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Naomi Watts, Laura Harring, Justin Theroux</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>TA Hollywood, durant la nuit, Rita, une jeune femme, devient amnésique
+                                    suite à un accident de voiture sur la route de Mulholland Drive. Elle
+                                    fait la rencontre de Betty Elms, une actrice en devenir qui vient
+                                    juste de débarquer à Los Angeles. Aidée par celle-ci, Rita tente de
+                                    retrouver la mémoire ainsi que son identité.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 center-section aside-flex">
+                            <img src="img/affiches/la-haine.JPG" alt="Affiche La Haine" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 20h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>31 mai 1995</p>
+
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Matthieu Kassovitz</p>
+
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Vincent Cassel, Saïd Taghmaoui, Hubert Koundé</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>Après une bavure policière, une nuit d'émeutes éclate entre les jeunes
+                                    de la cité des Muguets et la police. Parmi ces jeunes aveuglés par la
+                                    haine, 3 amis vont vivre la journée la plus importante de leur vie.
+                                    Aujourd'hui, ils ne sont plus que 3... Ils sont 4 avec le Smith & Wesson
+                                    44 chromé qu'un des policiers a égaré pendant les émeutes.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 center-section aside-flex">
+                            <img src="img/affiches/big-fish.JPG" alt="Affiche Big Fish" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 22h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>3 mars 2004</p>
+
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Tim Burton</p>
+
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Ewan McGregor, Albert Finney</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>L'histoire à la fois drôle et poignante d'Edward Bloom,
+                                    un père débordant d'imagination, et de son fils William.
+                                    Ce dernier retourne au domicile familial après l'avoir
+                                    quitté longtemps auparavant, pour être au chevet de son
+                                    père, atteint d'un cancer. Il souhaite mieux le connaître
+                                    et découvrir ses secrets avant qu'il ne soit trop tard.
+                                    L'aventure débutera lorsque William tentera de discerner
+                                    le vrai du faux dans les propos de son père mourant.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--tab 8 août-->
+            <div class="tab-pane fade" id="programmation-8-aout">
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 center-section aside-flex">
+                            <img src="img/affiches/vol-au-dessus-d-un-nid-de-coucou.JPG"
+                                alt="Affiche Vol au dessus d'un nid de coucou" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 18h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>1 mars 1976</p>
+
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Milos Forman</p>
+
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Jack Nicholson, Louise Fletcher, Will Sampson</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>Pour échapper à la prison, le détenu du droit commun Randall P. McMurphy
+                                    se fait interner en simulant la folie. Dès son arrivée à l'hôpital
+                                    psychiatrique, il assiste aux traitements thérapeutiques dispensés par
+                                    miss Ratched, l'autoritaire et tyrannique infirmière en chef dont il
+                                    cherche à bouleverser les méthodes.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 center-section aside-flex">
+                            <img src="img/affiches/melancholia.JPG" alt="Affiche Melancholia" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 20h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>10 août 2011</p>
+
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Lars von Trier</p>
+
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Kirsten Dunst, Charlotte Gainsbourg, Kieffer Sutherland</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>Justine se marie. Elle a voulu une grande cérémonie et un wedding planner
+                                    de haut vol. Mais elle et Michael arrivent en retard à la réception, au
+                                    grand dam de Claire, la soeur de la mariée, qui a tout organisé. Pendant
+                                    le dîner, le père des deux filles boit trop tandis que leur mère clame
+                                    haut et fort son mépris du mariage. Le regard de Justine se trouble. La
+                                    jeune femme cherche de plus en plus à échapper aux festivités, jusqu'à
+                                    tout faire capoter.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container paddingContainer">
+                    <div class="row section-flex">
+                        <aside class="col-sm-6 center-section aside-flex">
+                            <img src="img/affiches/into-the-wild.JPG" alt="Affiche Into the Wild" />
+                        </aside>
+                        <div class="col-sm-6 padding-none-2">
+                            <div>
+                                <h2 class="padding-section center-section">Séance de 20h</h2>
+                            </div>
+                            <div>
+                                <h3 class="item-seance">Date de sortie :</h3>
+                                <p>9 janvier 2008</p>
+
+                                <a href="realisateurs.html">
+                                    <h3 class="item-seance lien-item-seance">Réalisateur :</h3>
+                                </a>
+                                <p>Sean Penn</p>
+
+                                <a href="acteurs.html">
+                                    <h3 class="item-seance lien-item-seance">Acteurs principaux :</h3>
+                                </a>
+                                <p>Emile Hirsch, Kristen Stewart</p>
+
+                                <h3 class="item-seance">Synopsis :</h3>
+                                <p>Tout juste diplômé, Christopher McCandless, 22 ans, est promis à un brillant
+                                    avenir. Pourtant, tournant le dos à l'existence confortable et sans surprise
+                                    qui l'attend, le jeune homme décide de prendre la route en laissant tout
+                                    derrière lui. Des champs de blé du Dakota aux flots tumultueux du Colorado,
+                                    en passant par les communautés hippies de Californie, Christopher va
+                                    rencontrer des personnages hauts en couleur. Chacun, à sa manière, va
+                                    façonner sa vision de la vie et des autres.
+                                </p>
+                                <div class="container-fluid paddingContainer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="vcenter-programmation">
+                                                <button class="btn btn-reservation btn-default btn-lg"
+                                                    data-toggle="modal" data-target="#fenetre-reservation">Je réserve ma
+                                                    place !
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!--formulaire de réservation-->
+        <div class="modal fade" id="fenetre-reservation" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <fieldset
+                        class="modal-body global-margin margin-section padding-section paddingContainer borderContainer">
+                        <legend>
+                            <h2>Réservez votre journée</h2>
+                        </legend>
+                        <form>
+                            <div class="row margin-section">
+                                <div class="col-sm-3">
+                                    <label for="nom-inscrit" class="font-focus">Votre Nom :</label>
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" id="nom-inscrit">
+                                </div>
+                                <div class="col-sm-3">
+                                    <label for="prenom-inscrit" class="font-focus">Votre Prénom :</label>
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" id="prenom-inscrit">
+                                </div>
+                            </div>
+
+                            <div class="row margin-section">
+                                <div class="col-sm-3">
+                                    <label for="mail-inscrit" class="font-focus">Votre adresse mail :</label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="email" class="form-control" id="mail-inscrit">
+                                </div>
+                            </div>
+
+                            <fieldset class="form-group-row">
+                                <legend class="font-focus col-sm-4">Quelle date souhaitez-vous réserver ?</legend>
                                 <div class="row margin-section">
-                                    <div class="col-sm-3">
-                                        <label for="nom-inscrit" class="font-focus">Votre Nom :</label>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <input type="text" class="form-control" id="nom-inscrit">
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <label for="prenom-inscrit" class="font-focus">Votre Prénom :</label>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <input type="text" class="form-control" id="prenom-inscrit">
-                                    </div>
-                                </div>
-
-                                <div class="row margin-section">
-                                    <div class="col-sm-3">
-                                        <label for="mail-inscrit" class="font-focus">Votre adresse mail :</label>
-                                    </div>
-                                    <div class="col-sm-9">
-                                        <input type="email" class="form-control" id="mail-inscrit">
-                                    </div>
-                                </div>
-
-                                <fieldset class="form-group-row">
-                                    <legend class="font-focus col-sm-4">Quelle date souhaitez-vous réserver ?</legend>
-                                    <div class="row margin-section">
-                                        <div class="col-sm-2">
-                                            <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="journee" id="5-aout" value="5-aout">
+                                    <div class="col-sm-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="journee" id="5-aout"
+                                                value="5-aout">
                                             <label class="font-footer" for="5-aout">
                                                 5 août
                                             </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="journee" id="6-aout" value="6-aout">
-                                                <label class="font-footer" for="6-aout">
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="journee" id="6-aout"
+                                                value="6-aout">
+                                            <label class="font-footer" for="6-aout">
                                                 6 août
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="journee" id="7-aout" value="7-aout">
-                                                <label class="font-footer" for="7-aout">
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="journee" id="7-aout"
+                                                value="7-aout">
+                                            <label class="font-footer" for="7-aout">
                                                 7 août
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="journee" id="8-aout" value="8-aout">
-                                                <label class="font-footer" for="8-aout">
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="journee" id="8-aout"
+                                                value="8-aout">
+                                            <label class="font-footer" for="8-aout">
                                                 8 août
-                                                </label>
-                                            </div>
+                                            </label>
                                         </div>
                                     </div>
-                                </fieldset>
-                                <fieldset>
-                                    <legend class="font-focus col-sm-3 pt-0">Combien serez-vous ?</legend>
-                                    <div class="col-sm-3">
-                                        <div class="form-check">
-                                            <label class="sr-only" for="inlineFormCustomSelect">Preference</label>
-                                            <select class="font-footer" id="inlineFormCustomSelect">
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend class="font-focus col-sm-3 pt-0">Combien serez-vous ?</legend>
+                                <div class="col-sm-3">
+                                    <div class="form-check">
+                                        <label class="sr-only" for="inlineFormCustomSelect">Preference</label>
+                                        <select class="font-footer" id="inlineFormCustomSelect">
                                             <option selected>1</option>
                                             <option value="1">2</option>
                                             <option value="2">3</option>
@@ -777,91 +904,92 @@
                                             <option value="4">5</option>
                                             <option value="5">6</option>
                                             <option value="6">7+</option>
-                                            </select>
-                                        </div>
+                                        </select>
                                     </div>
-                                </fieldset>
-                            </form>
-                        </fieldset>
-                        <div class="modal-footer">
-                            <button type="button" class="btn-programmation" data-dismiss="modal">Fermer</button>
-                            <button type="button" class="btn-programmation" data-dismiss="modal" data-toggle="modal" data-target="#modal-confirmation">Valider</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--confirmation de réservation-->
-            <div class="modal" id="modal-confirmation" tabindex="-1" role="dialog">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <span class="glyphicon glyphicon-ok fa-3x"></span>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p class="center-section">Nous vous remercions de votre intérêt.</p>
-                            <p class="center-section">Votre place est réservée.</p>
-                            <p class="center-section">A très bientôt.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        
-        <footer>
-            <div class="navbar navbar-default marginbottom shadow-top container-fluid">
-                <div class="row vcenter">
-                    <fieldset class = "col-lg-3 col-lg-offset-4 borderContainer margin-section fieldset-footer">
-                        <legend class="legend-footer">
-                            <h3>Nos coordonnées</h3>                    
-                        </legend>
-                        <div>
-                            <address class="font-footer">Association Les films de plein air</address>
-                            <address class="font-footer">35, avenue Charles Fourrier</address>
-                            <address class="font-footer">75002 Paris</address>
-                            <address class="font-footer">01.01.01.01.01</address>
-                        </div>                
+                                </div>
+                            </fieldset>
+                        </form>
                     </fieldset>
-                    <div class="col-lg-3 col-lg-offset-1 justify-flex-end margin-section ">                    
-                        <div class="float-right">
-                            <div class="btn-group btn-group-md">
-                                <span class="font-focus">Partagez notre festival</span>                        
-                                <a class="btn btn-default" href="#"><i class="fab fa-2x fa-twitter-square"></i></a>
-                                <a class="btn btn-default" href="#"><i class="fab fa-2x fa-facebook-square"></i></a>
-                                <a class="btn btn-default" href="#"><i class="fab fa-2x fa-instagram-square"></i></a>
-                                <a class="btn btn-default" href="#"><i class="fab fa-2x fa-google-plus-square"></i></a>
-                            </div>
+                    <div class="modal-footer">
+                        <button class="btn-programmation" data-dismiss="modal">Fermer</button>
+                        <button class="btn-programmation" data-dismiss="modal" data-toggle="modal"
+                            data-target="#modal-confirmation">Valider</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--confirmation de réservation-->
+        <div class="modal" id="modal-confirmation" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="glyphicon glyphicon-ok fa-3x"></span>
+                        <button class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="center-section">Nous vous remercions de votre intérêt.</p>
+                        <p class="center-section">Votre place est réservée.</p>
+                        <p class="center-section">A très bientôt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="navbar navbar-default marginbottom shadow-top container-fluid">
+            <div class="row vcenter">
+                <fieldset class="col-lg-3 col-lg-offset-4 borderContainer margin-section fieldset-footer">
+                    <legend class="legend-footer">
+                        <h3>Nos coordonnées</h3>
+                    </legend>
+                    <div>
+                        <address class="font-footer">Association Les films de plein air</address>
+                        <address class="font-footer">35, avenue Charles Fourrier</address>
+                        <address class="font-footer">75002 Paris</address>
+                        <address class="font-footer">01.01.01.01.01</address>
+                    </div>
+                </fieldset>
+                <div class="col-lg-3 col-lg-offset-1 justify-flex-end margin-section ">
+                    <div class="float-right">
+                        <div class="btn-group btn-group-md">
+                            <span class="font-focus">Partagez notre festival</span>
+                            <a class="btn btn-default" href="#"><i class="fab fa-2x fa-twitter-square"></i></a>
+                            <a class="btn btn-default" href="#"><i class="fab fa-2x fa-facebook-square"></i></a>
+                            <a class="btn btn-default" href="#"><i class="fab fa-2x fa-instagram-square"></i></a>
+                            <a class="btn btn-default" href="#"><i class="fab fa-2x fa-google-plus-square"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-        <script src = "js/bootstrap.js"></script>
-        <script src = "3DGallery/js/jquery.gallery-media_query.js"></script>
-        <script src = "3DGallery/js/modernizr.custom.53451.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="3DGallery/js/jquery.gallery-media_query.js"></script>
+    <script src="3DGallery/js/modernizr.custom.53451.js"></script>
 
-        <script>
-            // variable fonctionnement carousel //
-            $( document ).ready(function() {
-                var options = {
-                    current		: 0,	// index of current item
-                    autoplay	: true,
-                    interval	: 5000  
-                };
-                // stop carousel au survol //
-                var gallery = $('#dg-container').gallery(options);
-                $("#dg-container").on('mouseover', function (event) {
-                        gallery.isMouseOver = true;
-                });
-                $("#dg-container").on('mouseout', function(event) {
-                        gallery.isMouseOver = false;
-                });
+    <script>
+        // variable fonctionnement carousel //
+        $(document).ready(function () {
+            var options = {
+                current: 0,	// index of current item
+                autoplay: true,
+                interval: 5000
+            };
+            // stop carousel au survol //
+            var gallery = $('#dg-container').gallery(options);
+            $("#dg-container").on('mouseover', function (event) {
+                gallery.isMouseOver = true;
             });
-        </script>
-        
-    </body>
+            $("#dg-container").on('mouseout', function (event) {
+                gallery.isMouseOver = false;
+            });
+        });
+    </script>
+
+</body>
 
 </html>
