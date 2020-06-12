@@ -939,6 +939,15 @@ ul {
     .margin-14 {
         margin-top: 8rem;
     }
+
+    .display-none {
+        display: none;
+    }
+
+    .vcenter-2 {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width : 1024px) and (max-width : 1199px) {
